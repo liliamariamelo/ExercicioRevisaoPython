@@ -1,0 +1,2 @@
+# ExercicioRevisaoPython
+Soluções das questões
