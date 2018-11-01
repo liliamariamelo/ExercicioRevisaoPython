@@ -1,0 +1,38 @@
+cont = 0
+
+a = input("Telefonou para a vítima?")
+a = a.lower()
+if a=="sim":
+    cont = cont+1
+
+b = input("Esteve no local do crime?")
+b = b.lower()
+if b=="sim"
+    cont = cont+1
+
+c = input("Mora perto da vítima?")
+c = c.lower()
+if c=="sim":
+    cont = cont+1
+
+d = input("Devia para a vítima?")
+d = d.lower()
+if d=="sim":
+    cont = cont+1
+
+e = input("Já trabalhou com a vítima?")
+e = e.lower()
+if e=="sim":
+    cont = cont+1
+
+if cont==2:
+    print("Suspeita")
+
+if cont==3 or cont==4:
+    print("Cúmplice")
+
+if cont==5:
+    print("Assasino")
+
+else:
+    print("Inocente")
